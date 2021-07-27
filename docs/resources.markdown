@@ -9,6 +9,9 @@ permalink: /resources/
 - [This Repo](https://github.com/sachinkmohan/sachinkmohan.github.io) <br>
 Command to build jekyll locally -> `bundle exec jekyll serve`
 
+### Uni
+- [Mensa](https://www.studierendenwerk-kaiserslautern.de/kaiserslautern/essen-und-trinken/tu-kaiserslautern/mensa/) 🍱
+
 ### Cheatsheets
 [Vim](https://vim.rtorr.com/) <br>
 [Conda](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
