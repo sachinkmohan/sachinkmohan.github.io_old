@@ -6,6 +6,7 @@ permalink: /resources/
 
 
 - [Jekyll Website](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll)<br>
+- [This Repo](https://github.com/sachinkmohan/sachinkmohan.github.io)
 Command to build jekyll locally -> `bundle exec jekyll serve`
 
 ### Cheatsheets
