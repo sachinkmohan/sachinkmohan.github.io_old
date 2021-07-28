@@ -8,6 +8,6 @@ permalink: /track/
 
 |Area|Today(hrs)|So-far|So-far(%)|Target|
 |---|---|---|---|---|
-|Thesis|-|0.75|![0](https://progress-bar.dev/3/ "progress")|24|
-|HiwiR|0.5|2.5| ![](https://progress-bar.dev/40/ "progress")|6|
-|HiwiB|0|0|![0](https://progress-bar.dev/0/ "progress")|4|
+|Thesis|0.75|1.5|![0](https://progress-bar.dev/5/ "progress")|24|
+|HiwiR|0.5|2.5| ![](https://progress-bar.dev/45/ "progress")|6|
+|HiwiB|4.5|4.5|![0](https://progress-bar.dev/110/ "progress")|4|
