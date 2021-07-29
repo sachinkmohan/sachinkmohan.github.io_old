@@ -3,7 +3,7 @@ layout: post
 title:  "Minister Daniela Schmitt visits RRLAB to see our autonomous bus at TUKL"
 date:   2021-07-29 11:57:44 +0200
 last_modified_at: 2021-07-29 16:00:08 +0200
-permalink: setup-contact-form-jekyll
+permalink: minister-daniela-schmitt-visits-rrlab
 description: Ministerin Daniela Schmitt visits RRLAB at Technical University of Kaiserslautern(TUKL). Professor. Karsten Berns gave a nice demo fo the bus. Rheinland Pfalz Region.
 published: true
 sitemap: true
