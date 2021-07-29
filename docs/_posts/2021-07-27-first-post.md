@@ -7,8 +7,9 @@ categories: jekyll update
 
 A bright sunny day! A lot of cleaning and organising the day before and here we are for that moment we had waited for. The clock striked 09:50 am, and there we go, the Minister [Daniela Schmitt](https://de.wikipedia.org/wiki/Daniela_Schmitt) arrived RRLAB along with her Team. 
 
-![Team Photo](/assets/group_pic.jpg)
-Prof. Berns gave a nice presentation of the qutonomous bus and after a brief discussion we started the bus demo. Professor sat along with the Minister and her team in the bus and was remote controlled by Hamza(Ph.D), the man responsible to control the vehicle. We had a short ride and the bus stopped abruptly at some point due to the emergency braking as it lost the connection from the antenna. A moment of panic smelled in the air but was laughed out later as we all knew that the bus is still in the construction phase. The Minister was happy with our progess and she thanked us all for the effort we put on this huge robot.
+![Team Photo](/assets/group_pic.jpg) <br>
+
+Prof. Berns gave a nice presentation of the autonomous bus and after a brief discussion we started the bus demo. Professor sat along with the Minister and her team in the bus and was remote controlled by Hamza(Ph.D), the man responsible to control the vehicle. We had a short ride and the bus stopped abruptly at some point due to the emergency braking as it lost the connection from the antenna. A moment of panic smelled in the air but was laughed out later as we all knew that the bus is still in the construction phase. The Minister was happy with our progess and she thanked us all for the effort we put on this huge robot.
 
 Soon after she left, we were starting our photoshoot by our lovely photographer Lukas
 ![Me](/assets/me_and_hamza_bhai.jpg)<br>
