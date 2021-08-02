@@ -13,10 +13,14 @@ Command to build jekyll locally -> `bundle exec jekyll serve`
 - [Mensa](https://www.studierendenwerk-kaiserslautern.de/kaiserslautern/essen-und-trinken/tu-kaiserslautern/mensa/) 🍱
 
 ### Cheatsheets
-[Vim](https://vim.rtorr.com/) <br>
-[Conda](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
+- [Vim](https://vim.rtorr.com/) <br>
+- [Conda](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
-## Not accessible tools for public 
+### Other tools
+- [Habitica task adjustor](https://oldgods.net/habitica/task_adjustor.html) <br> 
+- [Habitica batch subtasks creator](https://codepen.io/greatghoul/full/ZjjKJP)
+
+## Not accessible tools for public 🔒
 ### Other tools
 - [G.Sheets task creator](https://docs.google.com/spreadsheets/d/1RK1SH3T-rGVkbDTJH6K5AMJ-htiDcDbL66wjA_KUANU/edit#gid=1519701331)
 ### Go to Tools HiwL
