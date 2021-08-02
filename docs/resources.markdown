@@ -17,6 +17,8 @@ Command to build jekyll locally -> `bundle exec jekyll serve`
 [Conda](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
 ## Not accessible tools for public 
+### Other tools
+- [G.Sheets task creator](https://docs.google.com/spreadsheets/d/1RK1SH3T-rGVkbDTJH6K5AMJ-htiDcDbL66wjA_KUANU/edit#gid=1519701331)
 ### Go to Tools HiwL
 - [Coggle](https://coggle.it/folder/60e5a2369aec02be916e9da6?org=0)<br>
 - [EV3DEV opencv - Notion](https://www.notion.so/EV3Dev-OpenCV-ac539198557648dab077a2b66bc13ee5)
