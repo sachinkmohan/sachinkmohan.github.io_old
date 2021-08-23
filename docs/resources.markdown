@@ -13,10 +13,20 @@ Command to build jekyll locally -> `bundle exec jekyll serve`
 - [Mensa](https://www.studierendenwerk-kaiserslautern.de/kaiserslautern/essen-und-trinken/tu-kaiserslautern/mensa/) 🍱
 
 ### Cheatsheets
-[Vim](https://vim.rtorr.com/) <br>
-[Conda](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
+- [Vim](https://vim.rtorr.com/) <br>
+- [Conda](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
-### Go to Tools H-Lego
-[Coggle](https://coggle.it/folder/60e5a2369aec02be916e9da6?org=0)<br>
-[EV3DEV opencv - Notion](https://www.notion.so/EV3Dev-OpenCV-ac539198557648dab077a2b66bc13ee5)
+### Other tools
+- [Habitica task adjustor](https://oldgods.net/habitica/task_adjustor.html) <br> 
+- [Habitica batch subtasks creator](https://codepen.io/greatghoul/full/ZjjKJP)
 
+## Not accessible tools for public 🔒
+### Other tools
+- [G.Sheets task creator](https://docs.google.com/spreadsheets/d/1RK1SH3T-rGVkbDTJH6K5AMJ-htiDcDbL66wjA_KUANU/edit#gid=1519701331)
+### Go to Tools HiwL
+- [Coggle](https://coggle.it/folder/60e5a2369aec02be916e9da6?org=0)<br>
+- [EV3DEV opencv - Notion](https://www.notion.so/EV3Dev-OpenCV-ac539198557648dab077a2b66bc13ee5)
+
+### Go to Tools Thesis
+- [Coggle Thesis](https://coggle.it/folder/60d99f557892e421a3381180?org=0)<br>
+- [Notion Thesis](https://www.notion.so/Thesis-afad72b0dfa0482e8af4e4fda7a0580c)
