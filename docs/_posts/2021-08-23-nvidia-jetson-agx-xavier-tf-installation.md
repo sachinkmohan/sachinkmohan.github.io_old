@@ -120,3 +120,29 @@ above this error message when asking for help.
 ```
 **This error is pointing to Cuda installation. Unable to find cuda installation in the jetson board. Stuck here, need to find out how to proceed further**
 _One thought is to install Cuda using SDK manager_
+> So I fixed this error by flashing the whole jetson board, check my other post [link](), I did a fresh installation of tensorflow specifically for AGX, just google - you will get it. I also created a virtual environment and installed everything under it. I also installed jetpack using `sudo apt-get`. I made sure cuda is installed under `usr/local/cuda`
+
+### Now I have a new error 
+
+```
+>>> import tensorflow
+2021-08-26 18:27:42.470472: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.2
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/pywrap_tensorflow.py", line 58, in <module>
+    from tensorflow.python.pywrap_tensorflow_internal import *
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/pywrap_tensorflow_internal.py", line 2449, in <module>
+    from tensorflow.python.util import deprecation
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/util/deprecation.py", line 26, in <module>
+    from tensorflow.python.platform import tf_logging as logging
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/platform/tf_logging.py", line 36, in <module>
+    import six
+ModuleNotFoundError: No module named 'six'
+```
+> Small update. I installed TF 1.15
+```
+sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v45 tensorflow==v1.15.5
+```
+```
+Successfully installed absl-py-0.13.0 astor-0.8.1 astunparse-1.6.3 dataclasses-0.8 gast-0.3.3 google-pasta-0.2.0 grpcio-1.40.0rc1 importlib-metadata-4.7.1 markdown-3.3.4 opt-einsum-3.3.0 tensorboard-1.15.0 tensorflow-1.15.5+nv21.6 tensorflow-estimator-1.15.1 termcolor-1.1.0 typing-extensions-3.10.0.0 werkzeug-2.0.1 wrapt-1.13.0rc3 zipp-3.5.0
+```
+
