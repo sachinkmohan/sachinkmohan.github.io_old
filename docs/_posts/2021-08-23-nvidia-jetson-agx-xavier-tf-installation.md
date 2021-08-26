@@ -12,6 +12,26 @@ categories: jetson nvidia agx-xavier
 
 - I followed the instructions to install tensorflow from this Nvidia standard documentation [link](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html)
 
+ > Official TF for Xavier is found here [Link](https://forums.developer.nvidia.com/t/official-tensorflow-for-jetson-agx-xavier/65523) <br>
+
+ > Find out the Jetpack version installed by this(not sure about this) -> `sudo apt show nvidia-jetpack` . Also can be found in sdkmanager while installing.
+ 
+ > My output of the `sudo apt show nvidia-jetpack`
+ ```
+Package: nvidia-jetpack
+Version: 4.5.1-b17
+Priority: standard
+Section: metapackages
+Maintainer: NVIDIA Corporation
+Installed-Size: 199 kB
+Depends: nvidia-cuda (= 4.5.1-b17), nvidia-opencv (= 4.5.1-b17), nvidia-cudnn8 (= 4.5.1-b17), nvidia-tensorrt (= 4.5.1-b17), nvidia-visionworks (= 4.5.1-b17), nvidia-container (= 4.5.1-b17), nvidia-vpi (= 4.5.1-b17), nvidia-l4t-jetson-multimedia-api (>> 32.5-0), nvidia-l4t-jetson-multimedia-api (<< 32.6-0)
+Homepage: http://developer.nvidia.com/jetson
+Download-Size: 29,4 kB
+APT-Manual-Installed: yes
+APT-Sources: https://repo.download.nvidia.com/jetson/t194 r32.5/main arm64 Packages
+Description: NVIDIA Jetpack Meta Package
+ ```
+
 From this release note [link](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform-release-notes/tf-jetson-rel.html#tf-jetson-rel) , I chose the TF version to install and I installed TF 1.14 from this sheet.
 
 - After successfully installing I got the below message
