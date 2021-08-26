@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Flashing AGX Xavier"
+title:  "Flashing AGX Xavier using sdkmanager"
 date:   2021-08-25 16:00:00 +0200
-last_modified_at: 2021-08-25 16:00:00 +0200
-permalink: nvidia-jetson-xavier-agx-flashing-issues
+last_modified_at: 2021-08-26 16:00:00 +0200
+permalink: nvidia-jetson-xavier-agx-flashing-issues-using-sdkmanager
 description: How to fix the board not connected jetson error. How to flash the jetson board or how to hard reset the jetson board or how to reset the jetson agx or tx2
 published: true
 sitemap: true
