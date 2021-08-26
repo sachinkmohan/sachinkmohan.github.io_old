@@ -3,7 +3,7 @@ layout: post
 title:  "Flashing AGX Xavier"
 date:   2021-08-25 16:00:00 +0200
 last_modified_at: 2021-08-25 16:00:00 +0200
-permalink: nvidia-jetson-xavier-agx-tensorflow-installation-errors
+permalink: nvidia-jetson-xavier-agx-flashing-issues
 description: How to fix the board not connected jetson error. How to flash the jetson board or how to hard reset the jetson board or how to reset the jetson agx or tx2
 published: true
 sitemap: true
