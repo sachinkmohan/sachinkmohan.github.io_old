@@ -2,7 +2,7 @@
 layout: post
 title:  "Nvidia Jetson Xavier AGX Tensorflow(TF) Installation errors"
 date:   2021-08-23 21:00:00 +0200
-last_modified_at: 2021-08-23 21:00:00 +0200
+last_modified_at: 2021-08-30 18:30:00 +0200
 permalink: nvidia-jetson-xavier-agx-tensorflow-installation-errors
 description: How to install tensorflow on jetson AGX Xavier board. Fix errors while installing Tensorflow on jetson AGX board.
 published: true
@@ -137,8 +137,14 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/platform/tf_logging.py", line 36, in <module>
     import six
 ModuleNotFoundError: No module named 'six'
+
 ```
-> Small update. I installed TF 1.15
+> _Fixed this error by installing six(which is a library for smoothing code compatibility b/w python 2 and 3)_ 
+ 
+>`pip3 install six`
+
+##### Small update
+> I installed TF 1.15
 ```
 sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v45 tensorflow==v1.15.5
 ```
