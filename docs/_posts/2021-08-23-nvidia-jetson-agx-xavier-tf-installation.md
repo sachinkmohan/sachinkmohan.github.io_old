@@ -154,3 +154,11 @@ Successfully installed absl-py-0.13.0 astor-0.8.1 astunparse-1.6.3 dataclasses-0
 
 ### Tensorflow Object Detection
 Currently following this blog by Gilbert Tanner -> [link](https://gilberttanner.com/blog/run-tensorflow-on-the-jetson-nano)
+
+
+
+### Required installation and errors
+- Jupyter Notebook not installed in pip -> `pip3 install jupyterlab`
+- `ModuleNotFoundError: No module named 'PIL'` -> solved by `pip3 install jupyterlab`
+- ModuleNotFoundError: No module named 'matplotlib' -> pip3 install matplotlib
+
