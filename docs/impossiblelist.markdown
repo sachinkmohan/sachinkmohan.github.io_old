@@ -12,7 +12,7 @@ Professional Goals
 
 ### Web Development
 
-- ~Create a simple Website using VueJS~ - Done
+- Create a simple Website using VueJS - Done
 - Learn VueJS
 
 ### App Development
