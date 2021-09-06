@@ -20,6 +20,9 @@ Command to build jekyll locally -> `bundle exec jekyll serve`
 - [Habitica task adjustor](https://oldgods.net/habitica/task_adjustor.html) <br> 
 - [Habitica batch subtasks creator](https://codepen.io/greatghoul/full/ZjjKJP)
 
+### Courses Library
+- [Machine Learning by Andrew NG](https://www.coursera.org/learn/machine-learning/home/welcome)
+
 ## Not accessible tools for public 🔒
 ### Other tools
 - [G.Sheets task creator](https://docs.google.com/spreadsheets/d/1RK1SH3T-rGVkbDTJH6K5AMJ-htiDcDbL66wjA_KUANU/edit#gid=1519701331)
@@ -30,3 +33,5 @@ Command to build jekyll locally -> `bundle exec jekyll serve`
 ### Go to Tools Thesis
 - [Coggle Thesis](https://coggle.it/folder/60d99f557892e421a3381180?org=0)<br>
 - [Notion Thesis](https://www.notion.so/Thesis-afad72b0dfa0482e8af4e4fda7a0580c)
+
+
