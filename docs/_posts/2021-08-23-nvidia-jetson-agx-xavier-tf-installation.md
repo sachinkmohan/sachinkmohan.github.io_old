@@ -50,6 +50,11 @@ I tried all the fix from these Nvidia forums [link1](https://forums.developer.nv
 
 These linked pointed out to one problem that my `PYTHONPATH` was not set in `.bashrc` file
 
+> My PYTHONPATH in .bashrc file looks like this `export PYTHONPATH=/usr/local/lib/python3.6/dist-packages:$PYTHONPATH`
+
+> Note: As your tensorflow and other ML related libraries are installed in `/usr/local/lib` instead of `/usr/lib`, this throws an error.
+
+
 - After setting that I tested if TF was installed properly using this command `pip3 show tensorflow-gpu`
  ```
  WARNING: pip is being invoked by an old script wrapper. This will fail in a future version of pip.
@@ -143,6 +148,45 @@ ModuleNotFoundError: No module named 'six'
  
 >`pip3 install six`
 
+### I am trying to install [Tensorflow for Jetson](https://github.com/NVIDIA-AI-IOT/tf_trt_models)
+- When I tried to install the script as below
+`./install.sh python3`
+
+I got the below error
+
+```
+You are attempting to install a package to a directory that is not
+on PYTHONPATH and which Python does not read ".pth" files from.  The
+installation directory you specified (via --install-dir, --prefix, or
+
+the distutils default setting) was:
+
+    /Users/user/.local/lib/python3.5/site-packages/
+
+and your PYTHONPATH environment variable currently contains:
+
+    '/usr/local/opt/opencv3/lib/python3.5/site-packages/'
+
+Here are some of your options for correcting the problem:
+
+* You can choose a different installation directory, i.e., one that is
+  on PYTHONPATH or supports .pth files
+
+* You can add the installation directory to the PYTHONPATH environment
+  variable.  (It must then also be on PYTHONPATH whenever you run
+  Python and want to use the package(s) you are installing.)
+
+* You can set up the installation directory to support ".pth" files by
+  using one of the approaches described here:
+
+  https://setuptools.readthedocs.io/en/latest/easy_install.html#custom-installation-locations
+```
+**How to fix**
+- I fixed this by updating my PYTHONPATH in .bashrc file to the below
+`export PYTHONPATH=/usr/local/lib/python3.6/dist-packages:/home/agxdbot/.local/lib/python3.6/site-packages:$PYTHONPATH`
+
+
+
 ##### Small update
 > I installed TF 1.15
 ```
@@ -159,6 +203,10 @@ Currently following this blog by Gilbert Tanner -> [link](https://gilberttanner.
 
 ### Required installation and errors
 - Jupyter Notebook not installed in pip -> `pip3 install jupyterlab`
-- `ModuleNotFoundError: No module named 'PIL'` -> solved by `pip3 install jupyterlab`
-- ModuleNotFoundError: No module named 'matplotlib' -> pip3 install matplotlib
+- `ModuleNotFoundError: No module named 'PIL'` -> solved by `pip3 install PILLOW`
+- ModuleNotFoundError: No module named 'matplotlib' -> Install Matplotlib in pip3. Here we have 2 steps when compared to just pip installation
+[pip3 matplotlib installation](https://bodo-schoenfeld.de/einfuehrung-in-matplotlib/)
 
+
+### Some useful commmands
+launching jupyterlab → jupyter-lab
