@@ -185,6 +185,23 @@ Here are some of your options for correcting the problem:
 - I fixed this by updating my PYTHONPATH in .bashrc file to the below
 `export PYTHONPATH=/usr/local/lib/python3.6/dist-packages:/home/agxdbot/.local/lib/python3.6/site-packages:$PYTHONPATH`
 
+#### Another error while trying to install the `install.sh` script
+```
+Traceback (most recent call last):
+  File "setup.py", line 17, in <module>
+    from setuptools import find_packages
+  File "/usr/local/lib/python3.6/dist-packages/setuptools/__init__.py", line 19, in <module>
+    import setuptools.version
+  File "/usr/local/lib/python3.6/dist-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/usr/local/lib/python3.6/dist-packages/pkg_resources/__init__.py", line 1380
+    raise SyntaxError(e) from e
+```
+
+**How to fix**
+setuptools is installed for lower version of TF. Jetson should suggest a newer ones while installing with TF 1.15 versions
+Install a new version of setuptools from this [link](https://pypi.org/project/setuptools/#history)
+> Note: type pip3 in the beginning for python3 installation.
 
 
 ##### Small update
