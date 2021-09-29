@@ -9,6 +9,7 @@ published: true
 sitemap: true
 categories: jetson nvidia agx-xavier
 ---
+## Nvidia Jetson Xavier AGX Tensorflow(TF) Installation errors
 
 - I followed the instructions to install tensorflow from this Nvidia standard documentation [link](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html)
 
@@ -213,8 +214,18 @@ sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/
 Successfully installed absl-py-0.13.0 astor-0.8.1 astunparse-1.6.3 dataclasses-0.8 gast-0.3.3 google-pasta-0.2.0 grpcio-1.40.0rc1 importlib-metadata-4.7.1 markdown-3.3.4 opt-einsum-3.3.0 tensorboard-1.15.0 tensorflow-1.15.5+nv21.6 tensorflow-estimator-1.15.1 termcolor-1.1.0 typing-extensions-3.10.0.0 werkzeug-2.0.1 wrapt-1.13.0rc3 zipp-3.5.0
 ```
 
-### Tensorflow Object Detection
-Currently following this blog by Gilbert Tanner -> [link](https://gilberttanner.com/blog/run-tensorflow-on-the-jetson-nano)
+## How to install  protobuf compiler 
+- Download appropriate protobuf script from this [link](https://github.com/jkjung-avt/jetson_nano)
+- Install protobuf compiler as told in step 10 of this [wonderful blog](https://www.pyimagesearch.com/2020/03/25/how-to-configure-your-nvidia-jetson-nano-for-computer-vision-and-deep-learning/)
+- I ran the script `install_protobuf-3.8.0.sh` as I had TF 1.15 installed.
+- Also if you are using virtual environment, refer to step 10 mentioned in the 2nd bullet point. Follow the instructions to install in the virtual environment seperately.
+
+## Tensorflow Object Detection
+#### Few useful links
+Blog by Gilbert Tanner -> [link](https://gilberttanner.com/blog/run-tensorflow-on-the-jetson-nano)
+
+> Note, [this standard installation](https://gilberttanner.com/blog/creating-your-own-objectdetector) doesn't work as it is meant for x86 architectures. The problem I faced was with the installation of protobuf mentioned in this blog. 
+
 
 
 
