@@ -222,11 +222,11 @@ Successfully installed absl-py-0.13.0 astor-0.8.1 astunparse-1.6.3 dataclasses-0
 
 ## Tensorflow Object Detection
 #### Few useful links
-Blog by Gilbert Tanner -> [link](https://gilberttanner.com/blog/run-tensorflow-on-the-jetson-nano)
+- Blog by Gilbert Tanner -> [link](https://gilberttanner.com/blog/run-tensorflow-on-the-jetson-nano)
 
 > Note, [this standard installation](https://gilberttanner.com/blog/creating-your-own-objectdetector) doesn't work as it is meant for x86 architectures. The problem I faced was with the installation of protobuf mentioned in this blog. 
 
-
+- [This repository](https://github.com/jkjung-avt/tf_trt_models) is most forked from the [standard NVIDIA tf_trt_models repository](https://github.com/NVIDIA-AI-IOT/tf_trt_models)
 
 
 ### Required installation and errors
