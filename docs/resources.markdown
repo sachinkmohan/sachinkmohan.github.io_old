@@ -34,4 +34,7 @@ Command to build jekyll locally -> `bundle exec jekyll serve`
 - [Coggle Thesis](https://coggle.it/folder/60d99f557892e421a3381180?org=0)<br>
 - [Notion Thesis](https://www.notion.so/Thesis-afad72b0dfa0482e8af4e4fda7a0580c)
 
+### Commands 
+- [Ubuntu disk usage](https://www.howtogeek.com/409611/how-to-view-free-disk-space-and-disk-usage-from-the-linux-terminal/) `du -h -s *`
+- `ls -l --block-size=M`
 
