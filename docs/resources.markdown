@@ -35,6 +35,8 @@ Command to build jekyll locally -> `bundle exec jekyll serve`
 - [Notion Thesis](https://www.notion.so/Thesis-afad72b0dfa0482e8af4e4fda7a0580c)
 
 ### Commands 
+#### Disk usage
 - [Ubuntu disk usage](https://www.howtogeek.com/409611/how-to-view-free-disk-space-and-disk-usage-from-the-linux-terminal/) `du -h -s *`
 - `ls -l --block-size=M`
+- Installing dpigs - this lists top applications using large disk space - `apt-get install debian-goodies` -> `dpigs -H -n 40`
 
