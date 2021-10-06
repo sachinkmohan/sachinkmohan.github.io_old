@@ -16,6 +16,9 @@ Command to build jekyll locally -> `bundle exec jekyll serve`
 - [Vim](https://vim.rtorr.com/) <br>
 - [Conda](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
+### General tools
+- [NB Viewer - to open github jupyter notebooks](https://nbviewer.jupyter.org/)
+
 ### Other tools
 - [Habitica task adjustor](https://oldgods.net/habitica/task_adjustor.html) <br> 
 - [Habitica batch subtasks creator](https://codepen.io/greatghoul/full/ZjjKJP)
@@ -34,8 +37,6 @@ Command to build jekyll locally -> `bundle exec jekyll serve`
 - [Coggle Thesis](https://coggle.it/folder/60d99f557892e421a3381180?org=0)<br>
 - [Notion Thesis](https://www.notion.so/Thesis-afad72b0dfa0482e8af4e4fda7a0580c)
 
-#### General tools
-- [NB Viewer - to open github jupyter notebooks](https://nbviewer.jupyter.org/)
 
 ## Commands 
 #### Disk usage
