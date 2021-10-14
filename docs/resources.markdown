@@ -9,6 +9,13 @@ permalink: /resources/
 - [This Repo](https://github.com/sachinkmohan/sachinkmohan.github.io) <br>
 Command to build jekyll locally -> `bundle exec jekyll serve`
 
+
+### Work Mode
+<div>
+  <h4> Hype Instrumentals 2 </h4> 
+<iframe src="https://open.spotify.com/embed/playlist/2IDzGJlXtfgV5igrXTUh2g" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+</div>
+
 ### Uni
 - [Mensa](https://www.studierendenwerk-kaiserslautern.de/kaiserslautern/essen-und-trinken/tu-kaiserslautern/mensa/) 🍱
 
