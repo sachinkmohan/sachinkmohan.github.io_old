@@ -24,7 +24,7 @@ Command to build jekyll locally -> `bundle exec jekyll serve`
 
 <div>
   <h4> Deep Focus </h4> 
-  <iframe src="https://open.spotify.com/embed/playlist/6Rt75Xn0V7MF5VdMtIbddY" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+  <iframe src="https://open.spotify.com/embed/playlist/6Rt75Xn0V7MF5VdMtIbddY" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 </div>
 
 
@@ -43,6 +43,7 @@ Command to build jekyll locally -> `bundle exec jekyll serve`
 - [Habitica batch subtasks creator](https://codepen.io/greatghoul/full/ZjjKJP)
 
 ### Courses Library
+- [Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome)
 - [Machine Learning by Andrew NG](https://www.coursera.org/learn/machine-learning/home/welcome)
 
 ## Not accessible tools for public 🔒
