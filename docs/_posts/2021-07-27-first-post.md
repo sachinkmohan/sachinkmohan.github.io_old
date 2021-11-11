@@ -25,3 +25,5 @@ and suddenly this happened.
  A whole bunch of kids were amused to see the bus and our Professor was kind enough to show them all a small demo. The kids were happy, we were happy and we returned to our great RRLAB to further discussions on fixing the antenna of the bus.
 
 [Original article posted on TUKL website - Written in German](https://www.uni-kl.de/pr-marketing/news/news/detail/News/780000-euro-fuer-die-forschung-autonome-nutzfahrzeuge-fuer-den-katastrophenschutz-von-morgen/)
+
+{% include comments.html %}
