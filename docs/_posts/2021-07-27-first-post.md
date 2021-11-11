@@ -7,7 +7,6 @@ permalink: minister-daniela-schmitt-visits-rrlab
 description: Ministerin Daniela Schmitt visits RRLAB at Technical University of Kaiserslautern(TUKL). Professor. Karsten Berns gave a nice demo fo the bus. Rheinland Pfalz Region.
 published: true
 sitemap: true
-comments: true
 categories: jekyll update
 ---
 
@@ -27,6 +26,3 @@ and suddenly this happened.
 
 [Original article posted on TUKL website - Written in German](https://www.uni-kl.de/pr-marketing/news/news/detail/News/780000-euro-fuer-die-forschung-autonome-nutzfahrzeuge-fuer-den-katastrophenschutz-von-morgen/)
 
-{% if page.comments %}
-{% include disqus.html %}
-{% endif %}

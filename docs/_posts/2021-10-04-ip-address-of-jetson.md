@@ -7,7 +7,6 @@ permalink: how-find-IP-address-of-the-jetson-board
 description: How to find the IP address of the jetson board
 published: true
 sitemap: true
-comments: true
 categories: jetson nvidia agx-xavier
 ---
 
@@ -25,6 +24,3 @@ This will show you the difference in the files side by side.
 Note: Sometimes, you will get more than 1 IP after connecting the jetson board. You will have to give a trial and error method in that case. But this is not painful
 as connecting your board to a display and a keyboard just to find it's IP. Thanks Dennis(RRLAB) for suggesting this easy hack!!
 
-{% if page.comments %}
-{% include disqus.html %}
-{% endif %}

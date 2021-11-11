@@ -30,6 +30,9 @@ url: "https://sachinkmohan.github.io/" # the base hostname & protocol for your s
 twitter_username: 
 github_username:  sachinkmohan
 
+# Set this to a github repository to be used to host comments.
+github_comments_repository: sachinkmohan/my-github-comments
+
 # Build settings
 theme: minima
 plugins:
