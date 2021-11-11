@@ -7,6 +7,7 @@ permalink: nvidia-jetson-xavier-agx-flashing-issues-using-sdkmanager
 description: How to fix the board not connected jetson error. How to flash the jetson board or how to hard reset the jetson board or how to reset the jetson agx or tx2
 published: true
 sitemap: true
+github_comments_issueid: "1"
 categories: jetson nvidia agx-xavier
 ---
 
