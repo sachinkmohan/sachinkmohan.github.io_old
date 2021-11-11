@@ -33,6 +33,9 @@ github_username:  sachinkmohan
 # Set this to a github repository to be used to host comments.
 github_comments_repository: sachinkmohan/my-github-comments
 
+# Google Analytics
+google_analytics: UA-166628477-2
+
 # Build settings
 theme: minima
 plugins:
