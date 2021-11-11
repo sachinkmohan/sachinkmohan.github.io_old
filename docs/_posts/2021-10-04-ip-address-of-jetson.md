@@ -7,6 +7,7 @@ permalink: how-find-IP-address-of-the-jetson-board
 description: How to find the IP address of the jetson board
 published: true
 sitemap: true
+github_comments_issueid: "4"
 categories: jetson nvidia agx-xavier
 ---
 
