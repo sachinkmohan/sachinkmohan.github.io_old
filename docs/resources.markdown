@@ -8,24 +8,7 @@ permalink: /resources/
 - [Jekyll Website](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll)<br>
 - [This Repo](https://github.com/sachinkmohan/sachinkmohan.github.io) <br>
 Command to build jekyll locally -> `bundle exec jekyll serve`
-
-
-### Work Mode
-
-<div>
-  <h4> Hype Instrumentals 1 </h4> 
-  <iframe src="https://open.spotify.com/embed/playlist/6pWTpzAZZhwJRWf7rY1XsX" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-</div>
-
-<div>
-  <h4> Hype Instrumentals 2 </h4> 
-  <iframe src="https://open.spotify.com/embed/playlist/2IDzGJlXtfgV5igrXTUh2g" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-</div>
-
-<div>
-  <h4> Deep Focus </h4> 
-  <iframe src="https://open.spotify.com/embed/playlist/6Rt75Xn0V7MF5VdMtIbddY" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-</div>
+- [Comments Git Repo](https://github.com/sachinkmohan/my-github-comments/issues)
 
 
 ### Uni
