@@ -7,6 +7,7 @@ permalink: nvidia-jetson-xavier-agx-tensorflow-installation-errors
 description: How to install tensorflow on jetson AGX Xavier board. Fix errors while installing Tensorflow on jetson AGX board.
 published: true
 sitemap: true
+github_comments_issueid : "3"
 categories: jetson nvidia agx-xavier
 ---
 ## Nvidia Jetson Xavier AGX Tensorflow(TF) Installation errors
