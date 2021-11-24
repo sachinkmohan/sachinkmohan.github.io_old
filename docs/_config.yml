@@ -33,7 +33,7 @@ github_username:  sachinkmohan
 github_comments_repository: sachinkmohan/my-github-comments
 
 # Google Analytics
-google_analytics: UA-166628477-2
+#google_analytics:
 
 # Build settings
 theme: minima
