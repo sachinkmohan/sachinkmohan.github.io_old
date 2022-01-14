@@ -11,7 +11,7 @@ github_comments_issueid: "7"
 categories: opencv numpy tensorflow
 ---
 
-Below is an example of live semantic segmentation where the segmentation mask is converted from ndarray to opencv image
+Below is an example of live semantic segmentation where the segmentation mask is converted from ndarray to opencv image.
 
 ```
 import cv2
