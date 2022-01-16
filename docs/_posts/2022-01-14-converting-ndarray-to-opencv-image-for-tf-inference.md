@@ -107,7 +107,7 @@ im_color = cv2.applyColorMap(u8, cv2.COLORMAP_AUTUMN)
 #cv2.imshow('img',255*predictions.squeeze())
 #---------------------------------------------------------
 
-#Below version just shows the mask with the color map
+Below version just shows the mask with the color map.
 
 #---------------------------------------------------------
 cv2.imshow('img',im_color)
