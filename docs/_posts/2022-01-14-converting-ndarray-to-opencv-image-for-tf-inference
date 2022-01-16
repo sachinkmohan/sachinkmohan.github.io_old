@@ -3,7 +3,7 @@ layout: post
 title:  "Converting ndarray to opencv image for tf inference"
 date:   2022-01-14 16:30:00 +0200
 last_modified_at: 2022-01-14 16:00:00 +0200
-permalink: resizing-the-camera-fram
+permalink: converting-ndarray-to-opencv
 description: Converting the numpy array to opencv image for tensorflow inference
 published: true
 sitemap: true
