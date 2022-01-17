@@ -8,7 +8,7 @@ description: How to fix the board not connected jetson error. How to flash the j
 published: true
 sitemap: true
 github_comments_issueid: "1"
-categories: jetson nvidia agx-xavier
+categories: [jetson, nvidia, agx-xavier]
 ---
 
 - If you are getting the below error, then your jetson board is not running on recovery mode.

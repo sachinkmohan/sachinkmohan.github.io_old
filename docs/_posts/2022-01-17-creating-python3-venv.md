@@ -8,7 +8,7 @@ description: How to create python3 virtual environment
 published: true
 sitemap: true
 github_comments_issueid: "7"
-categories: python3 venv virtualenvironment
+categories: [python3, venv, virtualenvironment]
 ---
 
 Creating a new python3 virtual environment
