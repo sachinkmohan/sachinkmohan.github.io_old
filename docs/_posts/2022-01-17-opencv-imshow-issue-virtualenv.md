@@ -29,3 +29,5 @@ then you can fix it by the below solution
 pip uninstall opencv-python-headless -y 
 pip install opencv-python --upgrade
 ```
+
+[Reference Link](https://stackoverflow.com/questions/67120450/error-2unspecified-error-the-function-is-not-implemented-rebuild-the-libra/67210407#67210407)
