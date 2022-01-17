@@ -8,7 +8,7 @@ description: Ministerin Daniela Schmitt visits RRLAB at Technical University of 
 published: true
 sitemap: true
 github_comments_issueid : "2"
-categories: [jekyll, update]
+categories: [RRLAB, TUKL]
 ---
 
 A bright sunny day! A lot of cleaning and organising the day before and here we are for that moment we had waited for. The clock striked 09:50 am, and there we go, the Minister [Daniela Schmitt](https://de.wikipedia.org/wiki/Daniela_Schmitt) arrived RRLAB along with her Team. 
