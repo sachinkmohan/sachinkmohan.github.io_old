@@ -20,3 +20,10 @@ categories: [github-hacks, hacks]
 
 `git reset --soft HEAD~1` -> Undo's your last commit, this is the most important thing if you did `git add .` or any other `git add file_name` accidentaly
 
+`git diff --name-only` -> shows unstaged changes, i.e not committed files
+
+
+#### Saw the below drawing in a stackoverflow [comment](https://stackoverflow.com/questions/35978550/how-to-show-uncommitted-changes-in-git-and-some-git-diffs-in-detail)
+
+<img src="https://i.stack.imgur.com/Ev0z9.jpg" style="width: 40%; height: 40%"/>
+
