@@ -22,15 +22,20 @@ ERROR: Could not find a version that satisfies the requirement tensorflow-gpu==2
 ERROR: No matching distribution found for tensorflow-gpu==2.7.0
 ```
 
-As pip 3.7 was not installed, the above error was triggered. 
+As python 3.7 was not installed, the above error was triggered. 
 
-Following the [stackoverflow link](https://stackoverflow.com/questions/54633657/how-to-install-pip-for-python-3-7-on-ubuntu-18), I executed the below
+Following the [stackoverflow link](https://stackoverflow.com/questions/53070868/how-to-install-python3-7-and-create-a-virtualenv-with-pip-on-ubuntu-18-04), I executed the below
 
 ```
-sudo apt install python3-pip
-python3.7 -m pip install pip
+% sudo apt install python3.7 python3-venv python3.7-venv
+% python3.7 -m venv py37-venv
+% . py37-venv/bin/activate
+(py37-venv) % 
 ```
+After this I executed the below from the standard TF installation from this [link](https://www.tensorflow.org/install/pip)
 
-Now I executed -> `$ pip install tensorflow-gpu==2.7.0` and tensorflow-gpu 2.7.0 was successfully installed. Yeah!!!!
+`pip install --upgrade pip`
+
+Finally execute -> `$ pip install tensorflow-gpu==2.7.0` and tensorflow-gpu 2.7.0 was successfully installed. Yeah!!!!
 
 
