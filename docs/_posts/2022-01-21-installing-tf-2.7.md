@@ -7,7 +7,7 @@ permalink: installing-tensorflow-twopointseven
 description: how to install tensorflow 2.7 in the pip environment
 published: true
 sitemap: true
-categories: [tensorflow2-installation, tensorflow]
+categories: [tensorflow-installation, tensorflow]
 ---
 
 Though I am a huge fan of conda, and wanted to install tensorflow 2.7, but unfortunately i couldn't find a conda version `conda search -c conda-forge tensorflow-gpu`,
