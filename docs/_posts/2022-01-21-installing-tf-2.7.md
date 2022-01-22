@@ -3,11 +3,10 @@ layout: post
 title:  "Installing tensorflow 2.7 in pip environment"
 date:   2022-01-21 16:00:00 +0200
 last_modified_at: 2022-01-21 15:00:00 +0200
-permalink: installing-tensorflow-2.7
+permalink: installing-tensorflow-twopointseven
 description: how to install tensorflow 2.7 in the pip environment
 published: true
 sitemap: true
-github_comments_issueid: "11"
 categories: [tensorflow2-installation, tensorflow]
 ---
 
