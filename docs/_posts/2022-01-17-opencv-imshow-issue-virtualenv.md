@@ -8,7 +8,7 @@ description: how to fix the opencv imshow error in the virtual environment
 published: true
 sitemap: true
 github_comments_issueid: "9"
-categories: [opencv, virtualenv, opencv-camera-issue]
+categories: [opencv, virtual-environment]
 ---
 
 If you encounter the below error 
