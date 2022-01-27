@@ -10,8 +10,11 @@ sitemap: true
 categories: [jetson, jetson-agx]  
 ---
 
-So I tried the instructions from Jetson hacks and didn't work on the Jetson Xavier AGX. Maybe it has something to do with the jetpack versions or
-the jetson board itself.
+First of I would like to thank Jetson Hacks for creating a wonderful [tutorial](https://www.jetsonhacks.com/2017/01/26/run-jetson-tx1-sd-card/)
+
+I just followed everything as described in his blog until the part where I had to edit the `extlinux.conf` file. 
+
+So below instructions is just an add-on to his blog on that part alone for Jetson AGX Xavier.
 
 `mount | head -n 1` -> Tells which partition your OS is booted from -> A command which is very hand in the end to check where the OS is booting from. So make 
 sure you enter this before and after making the changes on the Jetson board.
