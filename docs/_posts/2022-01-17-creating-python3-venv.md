@@ -12,6 +12,7 @@ categories: [python3, virtual-environment]
 ---
 
 Creating a new python3 virtual environment
+- Install `python3-env` -> `sudo apt-get install python3-venv`
 - Create a folder where you want all your python virtual environment
 - Go to the folder and execute `python3 -m venv virtual_env_name`
 - Activate by typing `source $path_of_your_venv/venv_name/bin/activate`
