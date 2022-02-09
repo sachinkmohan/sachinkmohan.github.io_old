@@ -7,10 +7,10 @@ permalink: booting-from-external-sdcard-jetson
 description: How to boot jetson or jetson agx xavier using external SD card.
 published: true
 sitemap: true
-categories: [jetson, jetson-agx]  
+categories: [jetson-agx]  
 ---
 
-First of I would like to thank Jetson Hacks for creating a wonderful [tutorial](https://www.jetsonhacks.com/2017/01/26/run-jetson-tx1-sd-card/)
+First of all, I would like to thank Jetson Hacks for creating a wonderful [tutorial](https://www.jetsonhacks.com/2017/01/26/run-jetson-tx1-sd-card/)
 
 I just followed everything as described in his blog until the part where I had to edit the `extlinux.conf` file. 
 
@@ -58,13 +58,16 @@ LABEL backup
 **************************************************************************************************************************************
 ```
 
-These are some changes in `/etc/fstab` and `/media/ubuntu/UUID/lib/init/fstab` that I read on the various forums.
+There are some changes in `/etc/fstab` and `/media/ubuntu/UUID/lib/init/fstab` that I read on the various forums.
 You can ignore this. I didn't do any changes. 
 
 I also edited the `/media/ubuntu/UUID/boot/extlinux/extlinux.conf` and those settings didn't work as described in jetson hacks. Probably it was written in 2017
 for old jetpack versions and different versions R32. 
 
 In summary, the problem was resolved when I edited the `/boot/extlinux/extlinux.conf` on the jetson board and not the one on the SD card. Probably Nvidia or Jetson team decided not to scan the SD card inserted, as it is supposed to be in the boot priority.
+
+**Note** - This gives us an advantage that next time if you mess up the SD card, just format the SD card and then copy the image from the eMMC to the SD card again as explained in the jethacks blog. Make sure that you change the settings to `root=/dev/mmcblk0p1` in the eMMC.
+
 
 _Ignore the below_ \
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\
