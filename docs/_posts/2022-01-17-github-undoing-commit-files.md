@@ -8,7 +8,7 @@ description: github undoing the committed files and other hacks
 published: true
 sitemap: true
 github_comments_issueid: "10"
-categories: [github-hacks, hacks]  
+categories: [github]  
 ---
 
 `git diff --stat origin/master..` -> Gives the list of all the files from last commit 
