@@ -8,7 +8,7 @@ description: Installation instructions
 published: true
 sitemap: true
 github_comments_issueid: "5"
-categories: [jetson, nvidia, agx-xavier]
+categories: [agx-xavier]
 ---
 
 I followed the wonderful [blog of JK Jung](https://jkjung-avt.github.io/build-tensorflow-1.12.2/) and everything installed fine except step 5. In my case I had to install TF 1.15 and I installed the proper version of Bazel and protobuf as mentioned in his github page. 
