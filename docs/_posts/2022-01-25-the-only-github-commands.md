@@ -7,7 +7,7 @@ permalink: only-github-commands
 description: What are the only github commands you ever need. The most used github commands
 published: true
 sitemap: true
-categories: [github, essentials]  
+categories: [github]  
 ---
 
 These are the github commands that I started with and I would like to share the same with you.
