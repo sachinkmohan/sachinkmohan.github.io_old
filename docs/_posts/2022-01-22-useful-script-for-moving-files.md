@@ -7,7 +7,7 @@ permalink: move-file-linux
 description: How to move your most recent file from Downloads to your current working directory
 published: true
 sitemap: true
-categories: [hacks, linux]
+categories: [linux]
 ---
 How  many times did you have to navigate to the Downloads folder and move the file to your target directory. 
 Well, I am tired doing it, so automating it.
