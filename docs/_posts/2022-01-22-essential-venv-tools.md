@@ -7,7 +7,7 @@ permalink: essential-venv-tools
 description: What are the essential virtual environment tools required in a pip or conda environment
 published: true
 sitemap: true
-categories: [tensorflow-installation, essentials, virtual-environment, conda, pip]
+categories: [essentials]
 ---
 
 1. Jupyter notebook - Who can live without it? - [Ref.](https://jupyter.org/install)
