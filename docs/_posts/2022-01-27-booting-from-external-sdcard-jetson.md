@@ -7,7 +7,7 @@ permalink: booting-from-external-sdcard-jetson
 description: How to boot jetson or jetson agx xavier using external SD card.
 published: true
 sitemap: true
-categories: [jetson-agx]  
+categories: [agx-xavier]  
 ---
 
 First of all, I would like to thank Jetson Hacks for creating a wonderful [tutorial](https://www.jetsonhacks.com/2017/01/26/run-jetson-tx1-sd-card/)
