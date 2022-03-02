@@ -7,7 +7,7 @@ permalink: tensorflow-jetson
 description: How to install tensorflow for jetson agx xavier jetpack 4.6 or jpv46
 published: true
 sitemap: true
-categories: [tensorflow-installation-jetson, agx-xavier]  
+categories: [jetson]  
 ---
 
 The standard packages are not working as described in this [link](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform-release-notes/tf-jetson-rel.html#tf-jetson-rel)
