@@ -8,7 +8,7 @@ description: How to fix the board not connected jetson error. How to flash the j
 published: true
 sitemap: true
 github_comments_issueid: "1"
-categories: [jetson, nvidia, agx-xavier]
+categories: [agx-xavier]
 ---
 I used this [simple guide][1] to flash and restore the jetson AGX xavier board.
 
