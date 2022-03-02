@@ -8,7 +8,7 @@ description: Converting the numpy array to opencv image for tensorflow inference
 published: true
 sitemap: true
 github_comments_issueid: "7"
-categories: [opencv, numpy, tensorflow]
+categories: [opencv]
 ---
 
 Below is an example of live semantic segmentation where the segmentation mask is converted from ndarray to opencv image.
