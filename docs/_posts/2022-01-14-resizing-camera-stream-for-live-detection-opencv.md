@@ -8,7 +8,7 @@ description: How to resize the original camera dimensions for inference in live 
 published: true
 sitemap: true
 github_comments_issueid: "6"
-categories: [opencv, tensorflow, pytorch]
+categories: [opencv]
 ---
 
 In the below example I have resized the frames from the camera to 320 * 480(weight * height)
