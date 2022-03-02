@@ -8,7 +8,7 @@ description: Collecting all the hacks here
 published: true
 sitemap: true
 github_comments_issueid: "10"
-categories: [jetson-inference, jetson-hacks]
+categories: [jetson]
 ---
 
 - Releasing the memory occupied by tensorflow
