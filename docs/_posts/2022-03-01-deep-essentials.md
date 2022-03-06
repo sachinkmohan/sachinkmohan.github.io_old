@@ -26,3 +26,6 @@ graph = gs.DynamicGraph('./mask_rcnn_inception_v2_coco_2018_01_28/frozen_inferen
 print(graph.graph_inputs)
 ```
 Make sure to install `pip install graphsurgeon`
+
+**3. Freeze all the packages in your pip environment to the requirements.txt** ➡️
+`pip3 freeze > requirements.txt`
