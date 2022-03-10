@@ -16,6 +16,7 @@ I used this [simple guide][1] to flash and restore the jetson AGX xavier board.
 ![Board Not Connected](/assets/flashing-agx-xavier/board_not_connected.jpeg) <br>
 
 - Follow this Wiki to set it to recovery mode first - [Link](https://developer.ridgerun.com/wiki/index.php?title=Xavier/Flashing_the_Board)
+  - Also refer [this](https://developer.ridgerun.com/wiki/index.php?title=Xavier/Introduction/Carrier_Boards/Nvidia_developer_kit#Developer_Kit_Overview)
 
 - Once it is set to this mode, type `lsusb` and look for **NVIDIA** in the results. Note, you have to plug-in the USB-C cable to the port next to the LED of the
 Jetson board as the other one didn't work.
