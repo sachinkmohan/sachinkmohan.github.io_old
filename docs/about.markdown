@@ -5,7 +5,9 @@ permalink: /about/
 comments: false
 ---
 
-Why am I the wierd IT guy? 😉 Because I love the below..
+The things that I cannot live without...
+
+- Coffee ☕
 - App evelopment using react-native
 - Web development using vue-js 
 - Vim
