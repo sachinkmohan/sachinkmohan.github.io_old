@@ -66,6 +66,7 @@ for old jetpack versions and different versions R32.
 
 In summary, the problem was resolved when I edited the `/boot/extlinux/extlinux.conf` on the jetson board and not the one on the SD card. Probably Nvidia or Jetson team decided not to scan the SD card inserted, as it is supposed to be in the boot priority.
 
+
 **Note** - This gives us an advantage that next time if you mess up the SD card, just format the SD card and then copy the image from the eMMC to the SD card again as explained in the jethacks blog. Make sure that you change the settings to `root=/dev/mmcblk0p1` in the eMMC.
 
 
@@ -74,3 +75,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\
 Doesn't matter, if fstab is created in `/lib/init` folder of the external SD card. Doesn't matter that either on `/etc/fstab` on the EMMC.
 What only matters is what you edit in the file extlinux.conf in the internal EMMC. `vim /boot/extlinux/extlinux.conf`, just change `mmcblk0p1` to `mmcblk1p1` \
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#### Updates -> 11th Mar, 2022
+- Sometimes the SD card is not recognized, which fails to boot. Then it won't boot from the emmc. I raised an [issue](https://forums.developer.nvidia.com/t/unable-to-boot-from-emmc-when-not-using-the-sd-card-on-jetpack-4-6/205604) with Nvidia. However they don't have a solution. However, my solutions are 
+  - Remove and insert the SD card again while turning it off. This should fix the problem most of the time.
+  - If this doesn't work, you need to flash by running the command `sudo ./flash.sh jetson-xavier mmcblk0p1`. This will reset the whole board by erasing all the data on the emmc. Now go back to the `extlinux.conf` to reset as described in the beginning of the blog to the SD card. 
