@@ -19,12 +19,14 @@ Then use any online csv compare tool to compare the arrays
 **2. View the inputs and outputs of a frozen_graph**
 
 - Replace `graph_inputs` by `graph_outputs` to print the outputs
+
 ```
 import graphsurgeon as gs
 graph = gs.DynamicGraph('./mask_rcnn_inception_v2_coco_2018_01_28/frozen_inference_graph.pb')
 
 print(graph.graph_inputs)
 ```
+
 Make sure to install `pip install graphsurgeon`
 
 **3. Freeze all the packages in your pip environment to the requirements.txt** ➡️
