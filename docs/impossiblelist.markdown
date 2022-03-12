@@ -4,7 +4,7 @@ title: Impossible List
 permalink: /impossiblelist/
 ---
 
-Professional Goals
+# Professional Goals
 
 ### Machine/Deep Learning
 
@@ -12,9 +12,8 @@ Professional Goals
 
 ### Web Development
 
-- Create a simple Website using VueJS - Done
-- Learn VueJS
+- [x] Create a simple Website using VueJS - Done
 
 ### App Development
 
-- Create a simple App using React Native
+- [x] Create a simple App using React Native
