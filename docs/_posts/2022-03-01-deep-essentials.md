@@ -31,3 +31,6 @@ Make sure to install `pip install graphsurgeon`
 
 **3. Freeze all the packages in your pip environment to the requirements.txt** ➡️
 `pip3 freeze > requirements.txt`
+
+**4. Adding frame rate or fps to the opencv frames**
+- https://learnopencv.com/how-to-find-frame-rate-or-frames-per-second-fps-in-opencv-python-cpp/
