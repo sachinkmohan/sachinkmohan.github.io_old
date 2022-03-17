@@ -20,3 +20,10 @@ for subdir, dirs, files in os.walk(rootdir):
         frame = cv2.imread(os.path.join(subdir, file)) 
 ```
 [Ref](https://stackoverflow.com/a/59925514/9063971)
+
+**2. Installing opencv in pip**
+```
+pip uninstall opencv-python-headless -y 
+pip install opencv-python --upgrade
+```
+[Ref](https://stackoverflow.com/a/70700690/9063971)
