@@ -35,7 +35,7 @@ Make sure to install `pip install graphsurgeon`
 **4. Adding frame rate or fps to the opencv frames**
 - https://learnopencv.com/how-to-find-frame-rate-or-frames-per-second-fps-in-opencv-python-cpp/
 
-**5. If CUDA goes out of memory while running on pycharm
+**5. If CUDA goes out of memory while running on pycharm**
 ```
 import os
 os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
