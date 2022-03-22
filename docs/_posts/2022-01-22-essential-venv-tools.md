@@ -15,4 +15,7 @@ categories: [cheat-sheet]
 pip install notebook
 jupyter notebook
 ```
-2. 
+Using conda it will be 
+```
+conda install -c anaconda jupyter
+```
