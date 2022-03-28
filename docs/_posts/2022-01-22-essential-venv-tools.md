@@ -10,7 +10,7 @@ sitemap: true
 categories: [cheat-sheet]
 ---
 
-1. Jupyter notebook - Who can live without it? - [Ref.](https://jupyter.org/install)
+**1. Jupyter notebook - Who can live without it?** - [Ref.](https://jupyter.org/install)
 ```
 pip install notebook
 jupyter notebook
@@ -18,4 +18,11 @@ jupyter notebook
 Using conda it will be 
 ```
 conda install -c anaconda jupyter
+```
+
+**2. conda most used commands**
+
+```python
+conda create --name envname python=3.5
+conda env remove --name bio-env  
 ```
