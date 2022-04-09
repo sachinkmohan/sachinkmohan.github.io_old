@@ -40,3 +40,7 @@ Make sure to install `pip install graphsurgeon`
 import os
 os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
 ```
+
+**6. To see if the GPU is available for training in tensorflow** <br>
+`print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))`
+
