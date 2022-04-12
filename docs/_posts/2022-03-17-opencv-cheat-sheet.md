@@ -26,3 +26,12 @@ for subdir, dirs, files in os.walk(rootdir):
 pip uninstall opencv-python-headless -y 
 pip install opencv-python --upgrade
 ```
+
+**3. Printing an image**
+```
+while(True):
+    cv2.imshow('im', seg_img)
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        cv2.destroyAllWindows()
+        break
+```
