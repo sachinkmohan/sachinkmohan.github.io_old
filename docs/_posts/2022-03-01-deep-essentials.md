@@ -42,5 +42,21 @@ os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
 ```
 
 **6. To see if the GPU is available for training in tensorflow** <br>
-`print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))`
+```
+print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
+```
 
+**7. Tensorboard basics** <br>
+```python
+tensorboard --logdir logs/fit
+```
+Tunnelling tensorboard 
+```python
+#from your local machine, run
+
+ssh -N -f -L localhost:16006:localhost:6006 <user@remote>
+
+#on the remote machine, run:
+
+tensorboard --logdir <path> --port 6006
+```
