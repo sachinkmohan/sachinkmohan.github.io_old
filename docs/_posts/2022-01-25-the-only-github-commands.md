@@ -32,6 +32,8 @@ These are the github commands that I started with and I would like to share the 
 `git rm -r --cached .` -> This removes the index but the files resides on the local disk. It is important when you add files in `.gitignore`
 and is not updated. [2]
 
+`git clone -b <branchname> <remote-repo-url>` -> to clone from a specific branch
+
 ### References
 [1](https://stackoverflow.com/questions/8021441/how-to-ignore-all-hidden-directories-files-recursively-in-a-git-repository)
 [2](https://stackoverflow.com/questions/5798930/git-rm-cached-x-vs-git-reset-head-x#:~:text=Whether%20git%20add%20was%20used,from%20the%20tree%20as%20well.)
