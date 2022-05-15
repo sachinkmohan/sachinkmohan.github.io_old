@@ -13,6 +13,6 @@ categories: essentials
 
 1. Best practices for writing python main()
 
-![Imgur](https://imgur.com/FjgeYNk) 
+[Imgur](https://imgur.com/FjgeYNk) 
 <br>
 [Reference](https://www.youtube.com/watch?v=lOeIDvyRUQs)
