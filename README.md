@@ -16,3 +16,7 @@ sitemap: true
 categories: ?  
 ---
 ```
+### Image resizing
+`![Imgur](/assets/images_for_the_posts/2022-05-15-python_essentials-python_best_practices.png){:height="600px" width="500px"}.`
+<br>
+Ref -> [link](https://kramdown.gettalong.org/syntax.html#images)
