@@ -12,6 +12,8 @@ categories: essentials
 
 
 1. Best practices for writing python main()
+<br>
+<img src="https://imgur.com/FjgeYNk" width="50%" height="50%"> <br>
 
 ![Imgur](/assets/images_for_the_posts/2022-05-15-python_essentials-python_best_practices.png) 
 <br>
