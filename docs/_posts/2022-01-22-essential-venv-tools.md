@@ -26,3 +26,6 @@ conda install -c anaconda jupyter
 conda create --name envname python=3.5
 conda env remove --name bio-env  
 ```
+**3. ugrading pip**
+
+`pip install pip --upgrade`
