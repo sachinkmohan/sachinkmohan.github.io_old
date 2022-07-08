@@ -7,7 +7,7 @@ permalink: apps-i-built
 description: A list of Web and Mobile apps that I built so far
 published: true
 sitemap: true
-categories: web-dev, app-dev   
+categories: [web-dev, app-dev]   
 ---
 
 [Deutsch]
