@@ -11,7 +11,7 @@ categories: [web-dev, app-dev]
 ---
 
 [Deutsch]
-Unten ist die Liste der Apps, die ich bisher erstellt habe.
+Unten sind die Liste der Apps, die ich bisher erstellt habe.
 
 ### Web Entwicklung
 Einfache Malayalam-Bildungswebsite, die mit Vuepress mit **VueJS**- Backbone erstellt wurde - [Website](https://easymalayalam.fun/)
@@ -21,6 +21,7 @@ Veganer oder pflanzlicher Ernährungsblog, der mit **ReactJS** erstellt wurde - 
 Einfache Malayalam-Bildungssprach-App, die mit **React-Native** -> [Dropbox Video link](https://www.dropbox.com/s/9i54fdl0ak9e0bh/EM_App_so_far_17th_May_22.mp4?dl=0)
 
 ---
+
 [English]
 Below are the list of apps that I built so far.
 
