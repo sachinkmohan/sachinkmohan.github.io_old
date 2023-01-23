@@ -6,12 +6,9 @@ permalink: /impossiblelist/
 
 # Professional Goals
 
-### Machine/Deep Learning
-
-- Complete Machine Learning course by Andrew NG on Coursera
-
 ### Web Development
 
+- [ ] Learn 5 basic features of gitkraken 
 - [x] Create a simple Website using VueJS - Done
 
 ### App Development
