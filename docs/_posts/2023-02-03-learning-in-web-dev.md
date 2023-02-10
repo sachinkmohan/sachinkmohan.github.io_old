@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Recent Learnings in Web Development"
-date:   2022-02-03 16:00:00 +0200
-last_modified_at: 2022-02-10 15:00:00 +0200
+date:   2023-02-03 16:00:00 +0200
+last_modified_at: 2023-02-10 15:00:00 +0200
 permalink: learning-in-web-dev
 description: Learnings in the web dev
 published: true
