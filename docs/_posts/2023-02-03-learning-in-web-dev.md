@@ -11,10 +11,6 @@ categories: web-dev
 ---
 
 # Jest
-- [ ] Learn 10 Jest Commands
-![](https://geps.dev/progress/10)
-
-- toBeTruthy()
 
 # Vim
 - [ ] Learn 20 Vim Commands
